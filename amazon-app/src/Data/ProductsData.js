@@ -92,7 +92,7 @@ const products = [
       "https://images-na.ssl-images-amazon.com/images/I/712Brp0hwfL._UL1500_.jpg",
   },
   {
-    id: "1234",
+    id: "6",
     title:
       "LG 27 inch 4K-UHD (3840 x 2160) HDR 10 Monitor (Gaming & Design) with IPS Panel",
     price: 11,
@@ -111,21 +111,22 @@ const products = [
     image:
       "https://images-na.ssl-images-amazon.com/images/I/61pI7loWpZS._SL1339_.jpg",
   },
+  
 ];
 
 const headerItems = [
   "All",
-  "BestSeller",
+  "Best Sellers",
   "Mobiles",
-  "Prime",
-  "Electronic",
-  "Fashion",
-  "New Releases",
   "Customer Service",
-  "Amazon Pay",
-  "Computers",
-  "Home & Kitchen",
   "Today's Deals",
+  "Fashion",
+  "Electronics",
+  "Prime",
+  "Home & Kitchen",
+  "Amazon Pay",
 ];
 
 export { products, headerItems };
+
+
