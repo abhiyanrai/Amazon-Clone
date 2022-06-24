@@ -19,7 +19,8 @@ Amazon.com, Inc. is an American multinational technology company which focuses o
 
 <br>
 
-<img src="./amazon-app/src/HomePage.png"/>
+## Demo Look
+<img src="./amazon-app/src/HomePage.PNG"/>
 
 <br>
 
