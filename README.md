@@ -20,22 +20,29 @@ Amazon.com, Inc. is an American multinational technology company which focuses o
 <br>
 
 ## Demo Look
+<br>
+
+## Landing Page
 <img src="./amazon-app/src/HomePage.PNG"/>
 
 <br>
 
+## User Authentication
 <img src="./amazon-app/src/Authentication.PNG"/>
 
 <br>
 
+## Product Description
 <img src="./amazon-app/src/descp.PNG"/>
 
 <br>
 
+## Checkout Page 
 <img src="./amazon-app/src/Checkout.PNG"/>
 
 <br>
 
+## Payment Page
 <img src="./amazon-app/src/Payment.PNG"/>
 
 
