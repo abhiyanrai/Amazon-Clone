@@ -24,19 +24,19 @@ Amazon.com, Inc. is an American multinational technology company which focuses o
 
 <br>
 
-<img src="./amazon-app/src/Authentication.png"/>
+<img src="./amazon-app/src/Authentication.PNG"/>
 
 <br>
 
-<img src="./amazon-app/src/descp.png"/>
+<img src="./amazon-app/src/descp.PNG"/>
 
 <br>
 
-<img src="./amazon-app/src/Checkout.png"/>
+<img src="./amazon-app/src/Checkout.PNG"/>
 
 <br>
 
-<img src="./amazon-app/src/Payment.png"/>
+<img src="./amazon-app/src/Payment.PNG"/>
 
 
 ## Challenges
