@@ -12,7 +12,8 @@ const SingleProduct = () => {
 
     let dispatch = useDispatch();
     const addItemToBasket = ()=> {
-       const item = {   id: SingleProduct.id,
+       const item = {   
+          id: SingleProduct.id,
           rating: SingleProduct.rating,
           title: SingleProduct.title,
           price: SingleProduct.price,
@@ -23,9 +24,8 @@ const SingleProduct = () => {
        dispatch(addToBasket(item));
     }
 
-  return (
-    <div className='single-product-container'>
-       <img className='single-product-ad' src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg" alt=""/>
+  return ( <div className='single-product-container'>
+       <img className='single-product-ad' src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Wireless/katariy/BAU/OP_Dec/D24582943_IN_WL_Category_Page_1500x400.gif" alt=""/>
        <div>
         <div className='single-product'>
             <img src={SingleProduct.image} className="single-product-image" />
@@ -44,7 +44,7 @@ const SingleProduct = () => {
                 <div className='single-product-specification'>
                     <h4>Specification</h4>
                     {SingleProduct.specification && SingleProduct.specification.map((item, index)=> {
-                        <li key={item}>{item}</li>
+                        return <li key={item}>{item}</li>
                     })}
                 </div>
                 <div className='single-product-description'>
@@ -63,5 +63,4 @@ const SingleProduct = () => {
     </div>
   )
 }
-
-export default SingleProduct
+export default SingleProduct;

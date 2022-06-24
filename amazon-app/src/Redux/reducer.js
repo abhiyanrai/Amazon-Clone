@@ -15,6 +15,16 @@ const basketReducer = (state=initialState, action) => {
             ...state,
             basket: newBasket,
         }
+        case types.REMOVE_FROM_BASKET:
+           let newbasket = [...state.basket];
+           const index = state.basket.findIndex((item)=>item.id === action.payload);
+           if(index >=0 ) {
+            newbasket.splice(index, 1)
+           }
+           return {
+            ...state, 
+            basket: newbasket,
+           };
       case types.REGISTER_START:
            case types.LOGIN_START:
             case types.LOGOUT_START:
