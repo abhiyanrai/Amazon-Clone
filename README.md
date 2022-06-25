@@ -1,7 +1,8 @@
 # Amazon-Clone
 <p>
 Amazon.com, Inc. is an American multinational technology company which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. It has been referred to as "one of the most influential economic and cultural forces in the world", and is one of the world's most valuable brands.
-
+<br>
+Visit to the Deploy Website:- https://loquacious-tartufo-89d684.netlify.app/
 </p>
 
 ## Tech Stack
